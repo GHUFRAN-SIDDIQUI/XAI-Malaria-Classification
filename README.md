@@ -1,2 +1,6 @@
 # XAI-Malaria-Classification
-Explainable ensemble machine learning models for malaria classification using clinical patient data with LIME and feature importance for interpretability.
+This study integrates ensemble machine learning models with Explainable Artificial Intelligence (XAI) techniques to perform malaria disease classification. The dataset, collected from the Federal Polytechnic Ilaro Medical Centre in Ogun State, Nigeria, contains clinical information from 337 patients aged 3 to 77 years, including 180 females and 157 males, recorded over a four-week period. To overcome class imbalance, oversampling methods were applied.
+
+Several ensemble algorithms were evaluated—Random Forest, AdaBoost, Gradient Boosting, XGBoost, and CatBoost. Among these, Random Forest demonstrated the strongest performance, achieving an ROC AUC of 0.840, followed by CatBoost (0.795). XGBoost, Gradient Boost, and AdaBoost achieved ROC AUC scores of 0.790, 0.747, and 0.651, respectively.
+
+To ensure transparency and interpretability, XAI methods such as LIME and Permutation Feature Importance were applied. These techniques explain how different patient characteristics influence the model’s predicted probability of malaria, highlighting the most significant features driving decisions. Such interpretability is crucial for healthcare practitioners, as it supports more informed decision-making, improves trust in automated systems, and may contribute to better treatment planning and patient outcomes in malaria management.
