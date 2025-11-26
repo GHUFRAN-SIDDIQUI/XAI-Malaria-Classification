@@ -1,5 +1,5 @@
 # XAI-Malaria-Classification
-This study integrates ensemble machine learning models with Explainable Artificial Intelligence (XAI) techniques to perform malaria disease classification. The dataset, collected from the Federal Polytechnic Ilaro Medical Centre in Ogun State, Nigeria, contains clinical information from 337 patients aged 3 to 77 years, including 180 females and 157 males, recorded over a four-week period. To overcome class imbalance, oversampling methods were applied.
+This study integrates ensemble machine learning models with Explainable Artificial Intelligence (XAI) techniques to perform malaria disease classification. The dataset contains clinical information from 337 patients aged 3 to 77 years, including 180 females and 157 males, recorded over a four-week period. To overcome class imbalance, oversampling methods were applied.
 
 Several ensemble algorithms were evaluated—Random Forest, AdaBoost, Gradient Boosting, XGBoost, and CatBoost. Among these, Random Forest demonstrated the strongest performance, achieving an ROC AUC of 0.840, followed by CatBoost (0.795). XGBoost, Gradient Boost, and AdaBoost achieved ROC AUC scores of 0.790, 0.747, and 0.651, respectively.
 
